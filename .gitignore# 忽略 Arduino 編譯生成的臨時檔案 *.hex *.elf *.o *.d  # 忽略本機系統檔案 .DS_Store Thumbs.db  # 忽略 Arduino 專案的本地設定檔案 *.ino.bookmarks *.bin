@@ -1,0 +1,13 @@
+# 忽略 Arduino 編譯生成的臨時檔案
+*.hex
+*.elf
+*.o
+*.d
+
+# 忽略本機系統檔案
+.DS_Store
+Thumbs.db
+
+# 忽略 Arduino 專案的本地設定檔案
+*.ino.bookmarks
+*.bin
